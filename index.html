@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NewBoCo Robots</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    html, body
+    {
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+    
+    iframe 
+    {
+      margin: 0; 
+      padding: 0; 
+      border: none;
+    }
+
+    main {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    aside {
+      width: 480px;
+      height: 100%;
+      height: calc(100% - 29px);
+      position: absolute;
+      top: 29px;
+      right: 0;
+      background-color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    aside {
+      padding: 5px;
+    }
+    aside iframe {
+      width: 100%;
+    }
+    aside h1 {
+      margin: 0;
+    }
+    aside img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <iframe
+      src="https://editor.netsblox.org/?action=present&Username=dahlbys&ProjectName=MerryGoRoundClient&editMode=true&noRun"
+      width="100%"
+      height="100%"
+      frameborder="0"
+      scrolling="auto">
+      Loading NetsBlox&hellip;
+    </iframe>
+  </main>
+  <aside>
+    <h1><img alt="NewBoCo" src="NewBoCo_tag.png" /></h1>
+    <iframe
+      class="video"
+      src="https://www.youtube.com/embed/oRbg6QhjJSk"
+      width="560"
+      height="315"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+      Loading video&hellip;
+    </iframe>
+  </aside>
+</body>
+</html>
